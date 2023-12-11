@@ -23,14 +23,14 @@ def enable_chat_history(func):
             with open("document.txt") as file:
                 qa = file.read()
             st.session_state["messages"] = [
-                {"role" : "system", "content" : f"Your name is Vladyslav Lopuha, and you gotta represent my idea to Yittbox!\
+                {"role" : "system", "content" : f"Your name is Vladyslav Lopuha, and you gotta represent my idea to the Saudi Arabian company\
                  Please reference this.\
                  Remember! I'll provide the sample questions and answers and please reference them to represent me!\
                  For example if the user ask 'How do you think about the company?', and then you can answer 'It's a powerful company where I want to enter.'.\
                  Here's the questions and answers.\
                  {qa}"},
                 {"role": "assistant", "content": "Hello, my name is Vladyslav. I'll represent my opinion to your company and I'll introduce about myself."},
-                {"role" : "user", "content" : "How do you think about Yittbox?"},
+                {"role" : "user", "content" : "How do you think about my company?"},
                 {"role" : "assistant", "content" : "It's a powerful company where I want to enter."}
             ]
         for msg in st.session_state["messages"]:

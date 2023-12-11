@@ -1,0 +1,20 @@
+1. Question: What's the main objective of our project?
+Answer: To build an AI chat application using OpenAI ChatGPT APIs that interacts with user-owned deeds through REST API.
+2. Question: How do we integrate OpenAI ChatGPT into the application?
+Answer: By making HTTP requests to OpenAI servers, sending user input as prompts, and processing model-generated responses.
+3. Question: What's in the sample Excel file for testing?
+Answer: It contains example conversations, user queries, and deeds data for application testing and training.
+4. Question: How does the app interact with user-owned deeds via REST API?
+Answer: It uses REST API calls to perform specified actions on user-owned deeds based on parsed user input.
+5. Question: How is user data security maintained?
+Answer: Security measures include encryption, authentication, access controls, and ensuring proper privacy of user-owned deeds data.
+6. Question: How does user authentication work in the app?
+Answer: Users are authenticated through secure mechanisms like username/password or token-based authentication.
+7. Question: How does the app handle multi-turn conversations?
+Answer: It maintains context from previous interactions, using user input history to provide coherent and contextually relevant responses.
+8. Question: What error handling is in place for API interactions?
+Answer: Robust error handling for API calls ensures smooth user experience with appropriate error messages.
+9. Question: How does the app adapt to diverse user queries?
+Answer: Natural language processing techniques are used for understanding and interpreting a wide range of user queries.
+10. Question: What tools and technologies are used for development and deployment?
+Answer: Python, web development frameworks, Docker for containerization, and cloud services for scalability and availability.
